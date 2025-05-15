@@ -1,3 +1,3 @@
 # RUBIK Pi x FIRST
 
-This is the documentation website page for RUBIK Pi x FIRST, served to https://first-rubik.github.io/.
+This is the source of the documentation website for RUBIK Pi x FIRST, found at https://first-rubik.github.io/.
