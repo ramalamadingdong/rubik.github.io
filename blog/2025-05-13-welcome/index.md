@@ -2,7 +2,6 @@
 slug: welcome-2024
 title: Welcome to RUBIK-Pi Blog
 authors: [Rami]
-image: ./docusaurus-plushie-banner.jpeg
 ---
 
 Welcome to the RUBIK-Pi blog platform! This is where FIRST teams can share their experiences, projects, and insights about using RUBIK-Pi in their robotics competitions.
