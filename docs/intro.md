@@ -32,4 +32,11 @@ This method has not been tested with typical FRC power supplies, which may have 
 
 ![5V and GND connections](./img/header.png)
 
-## How to flash Debian
+## Flashing Debian
+
+1. Download the Debian image from https://www.thundercomm.com/rubik-pi-3/en/docs/image/.
+2. Flash the image using the OS-specific instructions found in the user manual at https://www.thundercomm.com/rubik-pi-3/en/docs/rubik-pi-3-user-manual/1.1.0/quick-start/#13-preparations. Setup with a keyboard and display is recommended.
+
+## Next Steps
+
+Once Debian is set up, PhotonVision can be installed using [this guide](./photonvision/index.md).
