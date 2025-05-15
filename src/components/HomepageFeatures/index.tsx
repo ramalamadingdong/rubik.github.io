@@ -1,4 +1,4 @@
-import type {ReactNode} from 'react';
+import type { ReactNode } from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
@@ -12,11 +12,11 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Photonvision Support',
+    title: 'PhotonVision Support',
     Png: require('@site/static/img/PhotonVision-Icon.png').default,
     description: (
       <>
-        RUBIK Pi provides seamless integration with Photonvision, enabling advanced
+        RUBIK Pi provides seamless integration with PhotonVision, enabling advanced
         computer vision capabilities for your FIRST Robotics Competition robot.
       </>
     ),
@@ -44,7 +44,7 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({title, Svg, Png, description}: FeatureItem) {
+function Feature({ title, Svg, Png, description }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
