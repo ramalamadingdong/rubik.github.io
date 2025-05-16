@@ -37,6 +37,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          editUrl: 'https://github.com/first-rubik/first-rubik.github.io/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -44,6 +45,7 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
+          editUrl: 'https://github.com/first-rubik/first-rubik.github.io/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
