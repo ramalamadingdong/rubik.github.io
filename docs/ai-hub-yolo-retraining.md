@@ -4,7 +4,7 @@
 
 Qualcomm AI Hub provides a powerful and streamlined way to quantize YOLO models that have been retrained for specific use cases. This guide will walk you through the process of using AI Hub to optimize your custom-trained YOLO models for deployment on Qualcomm devices.
 
-## Why Use AI Hub for YOLO Quantization?
+### Why Use AI Hub for YOLO Quantization?
 
 - **Easy Integration**: Simple Python-based workflow for model quantization
 - **Optimized Performance**: EASY Automatic optimization for Qualcomm hardware
@@ -60,18 +60,10 @@ After quantization, AI Hub will provide:
    - Use the default settings for initial testing
    - Fine-tune quantization parameters based on accuracy requirements
 
-## Troubleshooting
-
-Common issues and solutions:
-- **Device Connection**: Ensure your device is properly connected and recognized by AI Hub
-- **Memory Issues**: Reduce batch size or model size if encountering memory constraints
-- **Accuracy Drop**: Try different quantization schemes or fine-tune the model further
-
 ## Additional Resources
 
-- [Qualcomm AI Hub Documentation](https://developer.qualcomm.com/software/ai-hub)
-- [YOLOv8 Documentation](https://docs.ultralytics.com/)
-- [RB3 Gen 2 Development Kit](https://developer.qualcomm.com/hardware/rb3-gen-2)
+- [Qualcomm AI Hub Documentation](https://app.aihub.qualcomm.com/docs/)
+- [Ultralytics Documentation](https://docs.ultralytics.com/)
 
 ## Next Steps
 
@@ -79,4 +71,3 @@ After quantization, you can:
 1. Deploy the optimized model to the RUBIKs Pi
 2. Benchmark performance
 3. Fine-tune based on real-world results
-
