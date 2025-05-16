@@ -38,4 +38,4 @@ This method has not been tested with typical FRC power supplies, which may have 
 
 ## Next Steps
 
-Once Debian is set up, PhotonVision can be installed using [this guide](../Photonvision/index.md).
+Once Debian is set up, PhotonVision can be installed using [this guide](../photonvision/index.md).
