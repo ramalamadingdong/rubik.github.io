@@ -34,7 +34,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="These are the docs for the RUBIK AI platform for FIRST">
+      description="Documentation for RUBIK AI - The intelligent platform for FIRST Robotics teams">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
