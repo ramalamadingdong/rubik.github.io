@@ -3,8 +3,11 @@ sidebar_position: 2
 ---
 
 # Power
+The RUBIK Pi can take a maximum of 36w in a variety of ways listed below 
 
-
+:::warning
+Give the RUBIK-Pi at least 20w. If given 15w brown outs might happen depending on processing requirments.
+:::
 ### USB-C
 
 The USB-C port adjacent to the buttons, labelled 'PWR IN', can be used to power the RUBIK Pi with a USB-C power supply or an external battery pack.
@@ -31,11 +34,3 @@ This method has not been tested with typical FRC power supplies, which may have 
 
 ![5V and GND connections](./img/header.png)
 
-## Flashing Debian
-
-1. Download the Debian image from https://www.thundercomm.com/rubik-pi-3/en/docs/image/.
-2. Flash the image using the OS-specific instructions found in the user manual at https://www.thundercomm.com/rubik-pi-3/en/docs/rubik-pi-3-user-manual/1.1.0/quick-start/#13-preparations. Setup with a keyboard and display is recommended.
-
-## Next Steps
-
-Once Debian is set up, PhotonVision can be installed using [this guide](../photonvision/index.md).
