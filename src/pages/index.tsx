@@ -33,7 +33,7 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Documentation for RUBIK AI - The intelligent platform for FIRST Robotics teams">
       <HomepageHeader />
       <main>
