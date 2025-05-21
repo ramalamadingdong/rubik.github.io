@@ -1,4 +1,4 @@
-# TFLite
+# Utilizing NPU using TFLite
 
 TFLite models can be run on the RUBIK Pi's AI accelerator. This can be used to greatly increase inference speed for TFLite models used in custom vision processing pipelines.
 
