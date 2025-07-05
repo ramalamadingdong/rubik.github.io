@@ -8,21 +8,21 @@ import TabItem from '@theme/TabItem';
 
 1. Connect port 2 in the following figure to a computer via a UART interface.
 
-   ![](images/image-44.jpg)
+   ![](img/image-44.jpg)
 
 2. Open the computer settings page, check the corresponding COM port in Device Manager, and record the port.
 
-   ![](images/image-47.jpg)
+   ![](img/image-47.jpg)
 
 3) Download MobaXterm at https://mobaxterm.mobatek.net/ and decompress it.
 
-   ![](images/image-49.jpg)
+   ![](img/image-49.jpg)
 
 4) Open MobaXterm, select **Session** > **Serial**, and set the baud rate of the serial port to 115200.
 
-   ![](images/image-48.jpg)
+   ![](img/image-48.jpg)
 
-   ![](images/image-42.jpg)
+   ![](img/image-42.jpg)
 
 5. Click **OK**. Press **Enter** and type your login name and the default login password to log in:
 
@@ -33,14 +33,14 @@ import TabItem from '@theme/TabItem';
    You can run the `passwd` command to change the default password. For example: `passwd root`.
    :::
 
-  ![](images/image-43.jpg)
+  ![](img/image-43.jpg)
 
 </TabItem>
 <TabItem value="ubuntu" label="Ubuntu">
 
 1. Connect port 2 in the following figure to a computer via a serial cable.
 
-   ![](images/image-41.jpg)
+   ![](img/image-41.jpg)
 
 2. Run the following commands to install minicom:
 
@@ -55,7 +55,7 @@ import TabItem from '@theme/TabItem';
    ls /dev/ttyACM*
    ```
 
-    ![](images/image-69.jpg)
+    ![](img/image-69.jpg)
 
 4. Run the following command to open minicom. Press **Enter** and type your login name and the default login password to log in:
 
@@ -70,7 +70,7 @@ import TabItem from '@theme/TabItem';
    You can run the `passwd` command to change the default password. For example: `passwd root`.
    :::
 
-    ![](images/image-67.jpg)
+    ![](img/image-67.jpg)
 
 </TabItem>
 </Tabs>
