@@ -20,10 +20,8 @@ sidebar_position: 3
 
    ![](img/20250314-155547-1.jpg)
 
-### Place device in EDL mode
+### Flash the device
 
-Select your operating system for detailed flashing instructions:
+For detailed platform-specific flashing instructions, see:
 
-- **[Windows](subsystem/windows.md)** - Windows-specific flashing instructions
-- **[Linux](subsystem/linux.md)** - Linux/Ubuntu-specific flashing instructions  
-- **[Mac](subsystem/mac.md)** - macOS-specific flashing instructions
+**[Platform-Specific Flashing Instructions](platform_specific_flashing.md)** - Choose your operating system (Windows, Linux, or Mac) from the tabs
