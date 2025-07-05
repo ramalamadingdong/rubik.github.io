@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+pagination_next: running_inference_on_npu
 ---
 
 # Flash images on a Windows system

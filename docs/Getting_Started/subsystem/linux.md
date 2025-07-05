@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+pagination_next: running_inference_on_npu
 ---
 
 # Flash images on a Linux system
