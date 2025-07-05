@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'RUBIK-Pi x FIRST Docs',
-  tagline: 'Where Vision Meets Robots',
+  title: 'Sample Docs',
+  tagline: 'Sample Docs',
   favicon: 'img/favicon.png',
 
   // Set the production url of your site here
@@ -59,7 +59,7 @@ const config: Config = {
 
   themeConfig: {
     navbar: {
-      title: 'RUBIK-Pi x FIRST',
+      title: 'RUBIK-Pi Sample Docs',
       logo: {
         alt: 'Rubik-Pi Logo',
         src: 'img/rubik-pi-logo.png',
