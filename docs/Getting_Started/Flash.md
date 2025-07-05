@@ -1,9 +1,9 @@
 ---
 sidebar_position: 4
-pagination_next: running_inference_on_npu
 ---
+# Flashing Instructions
 
-# Platform-Specific Flashing Instructions
+## Platform-Specific Flashing Instructions
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
