@@ -1,7 +1,11 @@
+---
+sidebar_position: 5
+---
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-## UART login
+# UART login
 
 <Tabs>
 <TabItem value="windows" label="Windows">
