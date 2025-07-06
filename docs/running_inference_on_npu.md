@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Utilizing NPU using TFLite
 
 ### How LibQNN works

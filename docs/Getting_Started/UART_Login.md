@@ -30,8 +30,8 @@ import TabItem from '@theme/TabItem';
 
 5. Click **OK**. Press **Enter** and type your login name and the default login password to log in:
 
-   <p>Login account: root</p>
-   <p>Login password: rubikpi</p>
+   <p>Login account: ubuntu</p>
+   <p>Login password: ubuntu</p>
    
    :::tip
    You can run the `passwd` command to change the default password. For example: `passwd root`.

@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Install IM SDK (Intelligent Multimedia SDK)
 
 The Intelligent Multimedia SDK (IM SDK) is a comprehensive software development kit provided by Qualcomm for their IoT and edge computing platforms. It enables developers to leverage hardware-accelerated multimedia processing, sensor integration, and AI capabilities on Qualcomm-based devices like the Rubik Pi.
