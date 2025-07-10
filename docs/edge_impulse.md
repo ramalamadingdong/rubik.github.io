@@ -28,7 +28,7 @@ $ ssh ubuntu@<ip_address>
 ```
 
 2. __Download and run the setup script__  
-To download the Edge Impulse Linux CLI, open the Rubik Pi terminal and run the following command   
+To download the Edge Impulse Linux CLI, open the Rubik Pi terminal and run the following command:   
 
 ```bash
 $ wget https://cdn.edgeimpulse.com/firmware/linux/setup-edge-impulse-qc-linux.sh
@@ -53,7 +53,7 @@ Follow the Edge Impulse tutorial/walkthrough to create a simple object detection
 To double check your device is connected to Edge Impulse, go to your Edge Impulse project and click __Devices__. You should see Rubik Pi 3 listed as one of your devices. You will only see your device under devices if you have created an impulse in your project. 
 
 6. __Run your Impulse__  
-To run an Impulse on your Rubik Pi device, run the command 
+To run an Impulse on your Rubik Pi device, run the command: 
 ```bash
 $ edge-impulse-linux-runner
 ```
