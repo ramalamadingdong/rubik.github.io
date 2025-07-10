@@ -9,7 +9,7 @@ Edge Impulse is a development platform for building, training, and deploying mac
 - Train and deploy ML models on a range of hardware
 - Easily monitor performance
 
-In this guide, we will walk through how to download Edge Impulse onto the Rubik Pi and use it to download an Impulse onto the Rubik Pi. 
+In this guide, we will walk through how to download Edge Impulse onto the Rubik Pi and use it to download an Impulse. 
 
 ## Prerequisites
 
@@ -51,7 +51,7 @@ If you recieve a message stating
 Follow the Edge Impulse tutorial/walkthrough to create a simple object detection project. For an in-depth tutorial, follow the steps found [here](https://docs.edgeimpulse.com/docs/tutorials/end-to-end-tutorials/computer-vision/object-detection/detect-objects-using-fomo).
 
 4. __Verify that your device is connected__  
-To double check your device is connected to Edge Impulse, go to your Edge Impulse project and click __Devices__ and you should see Rubik Pi 3 listed as one of your devices. You will only see your device under devices if you have created an impulse in your project. 
+To double check your device is connected to Edge Impulse, go to your Edge Impulse project and click __Devices__. You should see Rubik Pi 3 listed as one of your devices. You will only see your device under devices if you have created an impulse in your project. 
 
 5. __Run your Impulse__  
 To run an Impulse on your Rubik Pi device, run the command 
