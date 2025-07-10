@@ -9,7 +9,7 @@ Edge Impulse is a development platform for building, training, and deploying mac
 - Train and deploy ML models on a range of hardware
 - Easily monitor performance
 
-In this guide, we will walk through how to download Edge Impulse onto the Rubik Pi and use it to download an Impulse. 
+In this guide, we will walk through how to download Edge Impulse onto the Rubik Pi and use it to download an Impulse, your own customized ML model. 
 
 ## Prerequisites
 
@@ -27,7 +27,7 @@ Run the following command in your terminal, replacing `ip_address` with the actu
 $ ssh ubuntu@<ip_address> 
 ```
 
-1. __Download and run the setup script__  
+2. __Download and run the setup script__  
 To download the Edge Impulse Linux CLI, open the Rubik Pi terminal and run the following command   
 
 ```bash
@@ -36,8 +36,8 @@ $ sh setup-edge-impulse-qc-linux.sh
 $ source ~/.profile
 ```
 
-2. __Connect to Edge Impulse__  
-Run this command to link your Rubik pi to your Edge Impulse account:
+3. __Connect to Edge Impulse__  
+Run this command to link your Rubik Pi to your Edge Impulse account:
 ```bash
 $ edge-impulse-linux
 ```
@@ -45,20 +45,19 @@ You will be prompted for your username, email, and password you used to set up y
 ```bash
 $ edge-impulse-linux --clean
 ```
-If you recieve a message stating 
 
-3. __Create an Edge Impulse Project__  
+4. __Create an Edge Impulse Project__  
 Follow the Edge Impulse tutorial/walkthrough to create a simple object detection project. For an in-depth tutorial, follow the steps found [here](https://docs.edgeimpulse.com/docs/tutorials/end-to-end-tutorials/computer-vision/object-detection/detect-objects-using-fomo).
 
-4. __Verify that your device is connected__  
+5. __Verify that your device is connected__  
 To double check your device is connected to Edge Impulse, go to your Edge Impulse project and click __Devices__. You should see Rubik Pi 3 listed as one of your devices. You will only see your device under devices if you have created an impulse in your project. 
 
-5. __Run your Impulse__  
+6. __Run your Impulse__  
 To run an Impulse on your Rubik Pi device, run the command 
 ```bash
 $ edge-impulse-linux-runner
 ```
-With this command, the model that you build will be downloaded and inference will start running, all being done locally on the Rubik Pi. If you followed the steps to create an object detection project and have a camera connected to your Rubik Pi device, then the runner will also provide a view of the camera that is attached to the Rubik Pi. 
+With this command, the model that you built will be downloaded and inference will start running, all being done locally on the Rubik Pi. If you followed the steps to create an object detection project and have a camera connected to your Rubik Pi device, then the runner will also provide a view of the camera that is attached to the Rubik Pi. 
 
 
 ## Helpful Links
